@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="img/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <meta name="description" content="hangman game" />
+    <meta name="keywords" content="" />
+    <meta name="image" content="./img/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="./img/" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="apple-mobile-web-app-title" content="" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    <meta name="msapplication-TileImage" content="./img/" />
+    <link rel="preconnect" href="https://fonts.google.com" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>hangman game</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="main__wrapper">
+        <h1 class="main__title">Hangman</h1>
+        <div id="buttons"></div>
+        <p id="catagoryName"></p>
+        <div id="hold"></div>
+        <p id="mylives"></p>
+        <p id="clue">Clue -</p>
+        <canvas id="stickman"
+          >This Text will show if the Browser does NOT support HTML5 Canvas
+          tag</canvas
+        >
+        <div class="container">
+          <button id="hint">Hint</button>
+          <button id="reset">Play again</button>
+        </div>
+      </div>
+      <div class="wrapper"></div>
+    </main>
+    <!-- scripts -->
+    <script src="./script.js"></script>
+  </body>
+</html>
